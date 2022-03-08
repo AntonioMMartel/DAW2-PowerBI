@@ -1,0 +1,15 @@
+{
+  "name": "dashboard_raro",
+  "version": "1.0.0",
+  "description": "Estoy obligado a subir esta abominacion a mi github para aprobar la carrera jaja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch styles.scss crema.css"
+  },
+  "author": "Antonio Martel",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
