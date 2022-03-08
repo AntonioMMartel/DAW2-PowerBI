@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hola que tal jaja</title>
+    <link rel="stylesheet" href="crema.css">
+</head>
+
+<body>
+    <div class="container-main">
+        <div class="animation-container" id="fading_lights_animation">
+            <!-- <div class="circle-container">
+                <div class="circle"></div>
+            </div> x 100 -->
+        </div>
+        <div class="container-ui">
+            <div class="title">Hola que tal</div>
+            <div class="textito-crema"> Este es mi dashboard ñocloso </div>
+            <iframe title="jaja" width="600" height="373.5"
+                src="https://app.powerbi.com/view?r=eyJrIjoiMmMzZmIwNTItYjNlZS00NTFmLWI3OWQtMjVlYmQ1ZWViM2FlIiwidCI6ImIyYmI3MzFjLTQ2MGQtNDIwZi1hNDc1LTNlZDYxNWE4Mjk4NyIsImMiOjh9&pageName=ReportSection"
+                frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+    </div>
+    <footer class="contenedor-footer">
+        <div class="footer-text">©2021 Gofio SA ™ - Todos los derechos reservados</div>
+    </footer>
+</body>
+
+<script>
+    const animacion = document.getElementById('fading_lights_animation');
+
+    for (const x of Array(100).keys()) {
+
+        let particula = document.createElement('div');
+        particula.classList.add("circle-container");
+        particula.innerHTML = '<div class="circle"></div>'
+        animacion.appendChild(particula);
+    }
+</script>
+
+</html>
